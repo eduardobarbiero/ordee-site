@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="Ordee — plataforma para restaurantes, conveniências, pizzarias e lojas: cardápio digital, pedidos, loja online e avisos no WhatsApp."
+    />
+    <title>Ordee — Pedidos, catálogo e WhatsApp para o seu negócio</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/logo/ordee-preto.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/logo/ordee-preto.png" sizes="180x180" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="header" data-header>
+      <div class="container header__inner">
+        <a class="logo" href="#top" aria-label="Ordee — início">
+          <img
+            class="logo__img"
+            src="/logo/ordee-grande-preto.png"
+            alt="Ordee"
+            width="140"
+            height="32"
+          />
+        </a>
+        <nav class="nav" aria-label="Principal">
+          <a href="#plataforma">Plataforma</a>
+          <a href="#produtos">Produtos</a>
+          <a href="#notify">Notify</a>
+          <a href="#como-funciona">Como funciona</a>
+        </nav>
+        <div class="header__actions">
+          <a class="btn btn--ghost" href="#contato">Falar conosco</a>
+          <a class="btn btn--primary" href="#lista-espera">Lista de espera</a>
+          <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" data-nav-toggle>
+            <span></span><span></span>
+          </button>
+        </div>
+      </div>
+      <div class="mobile-nav" data-mobile-nav hidden>
+        <a href="#plataforma">Plataforma</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#notify">Notify</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#contato">Falar conosco</a>
+        <a class="btn btn--primary btn--block" href="#lista-espera">Lista de espera</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero__glow hero__glow--1" aria-hidden="true"></div>
+        <div class="hero__glow hero__glow--2" aria-hidden="true"></div>
+        <div class="container hero__grid">
+          <div class="hero__copy reveal">
+            <p class="eyebrow">
+              <span class="eyebrow__dot"></span>
+              Restaurantes, conveniências, pizzarias — experiência sob medida
+            </p>
+            <h1>
+              Seu cardápio vira pedido.<br />
+              Seu pedido vira <em>experiência</em>.
+            </h1>
+            <p class="hero__lead">
+              Ordee une catálogo, loja online, cozinha e entrega — com rastreio automático no WhatsApp quando você
+              quiser. Menos planilha, mais mesa cheia.
+            </p>
+            <div class="hero__cta">
+              <a class="btn btn--primary btn--lg" href="#lista-espera">Quero conhecer o Ordee</a>
+              <a class="btn btn--outline btn--lg" href="#produtos">Ver produtos</a>
+            </div>
+            <ul class="hero__stats">
+              <li><strong>Várias lojas</strong><span>uma conta por marca</span></li>
+              <li><strong>PIX &amp; cartão</strong><span>pagamento na hora</span></li>
+              <li><strong>WhatsApp</strong><span>avisos automáticos ao cliente</span></li>
+            </ul>
+          </div>
+
+          <div class="hero__stage reveal reveal--delay" aria-hidden="true">
+            <div class="stage-card stage-card--back">
+              <div class="stage-card__bar"></div>
+              <ul class="stage-kanban">
+                <li><span>Novo</span><strong>#1048</strong></li>
+                <li class="is-active"><span>Preparo</span><strong>#1047</strong></li>
+                <li><span>Saiu</span><strong>#1046</strong></li>
+              </ul>
+            </div>
+            <div class="stage-card stage-card--front">
+              <div class="stage-phone">
+                <div class="stage-phone__header">WhatsApp · Ordee</div>
+                <div class="stage-phone__bubble">
+                  <p>Seu pedido <strong>#1047</strong> foi atualizado:</p>
+                  <p><strong>Saiu para entrega</strong></p>
+                  <span class="stage-phone__btn">Falar com suporte</span>
+                </div>
+              </div>
+              <div class="stage-menu">
+                <span>🍔 Combo duplo</span>
+                <span>🥤 Refri 350ml</span>
+                <strong>R$ 42,90</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="strip">
+        <div class="container strip__inner">
+          <p>Restaurantes, conveniências, pizzarias e lojas que precisam de experiências diferentes para seu cliente.</p>
+          <div class="strip__tags">
+            <span>Restaurantes</span>
+            <span>Conveniências</span>
+            <span>Pizzarias</span>
+            <span>Lojas multiformato</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="plataforma">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow eyebrow--muted">Plataforma</p>
+            <h2>Uma base. Três frentes de receita.</h2>
+            <p class="section-head__lead">
+              O Ordee não é só “mais um cardápio QR”. É painel de gestão, loja online e contato com o cliente depois da
+              venda — prontos para crescer quando você abrir a segunda unidade.
+            </p>
+          </div>
+          <div class="pillars">
+            <article class="pillar reveal">
+              <div class="pillar__icon" aria-hidden="true">📋</div>
+              <h3>Operação</h3>
+              <p>Pedidos por etapa, alertas sonoros, entregadores, formas de pagamento e cupons — tudo no painel de gestão.</p>
+            </article>
+            <article class="pillar reveal reveal--delay">
+              <div class="pillar__icon" aria-hidden="true">🛒</div>
+              <h3>Vitrine</h3>
+              <p>Loja online com a cara da sua marca, pagamento fácil, PIX copia-e-cola e cadastro do cliente — pensada para celular.</p>
+            </article>
+            <article class="pillar reveal reveal--delay-2">
+              <div class="pillar__icon" aria-hidden="true">💬</div>
+              <h3>Pós-venda</h3>
+              <p>Ordee Notify: avisos de pedido no WhatsApp, botão para falar com a loja e mensagens no padrão exigido pelo app.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--dark" id="produtos">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow eyebrow--accent">Produtos</p>
+            <h2>Ordee App + Ordee Notify</h2>
+          </div>
+          <div class="products">
+            <article class="product reveal">
+              <div class="product__badge">Principal</div>
+              <h3>Ordee App</h3>
+              <p class="product__tagline">Catálogo, pedidos e loja online para a sua operação.</p>
+              <ul class="product__list">
+                <li>Painel de gestão com acesso separado por loja</li>
+                <li>Catálogo com categorias, complementos e imagens</li>
+                <li>Pedidos organizados por etapa + Mercado Pago e entrega Uber</li>
+                <li>Loja online com endereço e visual da sua marca</li>
+                <li>Configurações de entrega, horários e cupons</li>
+              </ul>
+              <a class="product__link" href="#lista-espera">Entrar na lista de espera →</a>
+            </article>
+            <article class="product product--notify reveal reveal--delay" id="notify">
+              <div class="product__badge product__badge--light">Complemento</div>
+              <h3>Ordee Notify</h3>
+              <p class="product__tagline">Avisos de pedido no WhatsApp — contratado à parte.</p>
+              <ul class="product__list">
+                <li>Cadastro do WhatsApp oficial da loja, passo a passo</li>
+                <li>Mensagem de status do pedido com botão para falar com a loja</li>
+                <li>Envio automático a cada mudança de status</li>
+                <li>Confirmação quando a mensagem chega e é lida</li>
+                <li>Telefone de atendimento separado do número que envia os avisos</li>
+              </ul>
+              <a class="product__link" href="#lista-espera">Quero Notify na minha loja →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="como-funciona">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow eyebrow--muted">Como funciona</p>
+            <h2>Do clique ao “chegou!”</h2>
+          </div>
+          <ol class="timeline">
+            <li class="timeline__item reveal">
+              <span class="timeline__num">1</span>
+              <div>
+                <h3>Cliente monta o pedido</h3>
+                <p>Cardápio online ou balcão — carrinho, complementos, cupom e pagamento.</p>
+              </div>
+            </li>
+            <li class="timeline__item reveal">
+              <span class="timeline__num">2</span>
+              <div>
+                <h3>Cozinha recebe na hora</h3>
+                <p>Os pedidos passam por etapas: confirmado, em preparo, pronto e saiu para entrega. Aviso sonoro quando chega pedido novo.</p>
+              </div>
+            </li>
+            <li class="timeline__item reveal">
+              <span class="timeline__num">3</span>
+              <div>
+                <h3>Cliente acompanha</h3>
+                <p>Tela de acompanhamento +, com Notify, mensagem WhatsApp a cada atualização.</p>
+              </div>
+            </li>
+            <li class="timeline__item reveal">
+              <span class="timeline__num">4</span>
+              <div>
+                <h3>Suporte humano, se precisar</h3>
+                <p>Botão na mensagem abre o WhatsApp comum da loja — sem misturar com o número que envia os avisos automáticos.</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section bento-section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow eyebrow--muted">Detalhes que importam</p>
+            <h2>Feito para o dia a dia da cozinha</h2>
+          </div>
+          <div class="bento">
+            <div class="bento__cell bento__cell--wide reveal">
+              <h3>Várias marcas, um sistema</h3>
+              <p>Cada marca com logo, endereço próprio, catálogo e dados separados — pronto para quem tem mais de uma loja.</p>
+            </div>
+            <div class="bento__cell reveal">
+              <h3>PIX na hora</h3>
+              <p>QR Code e copia-e-cola na hora de pagar, confirmação automática.</p>
+            </div>
+            <div class="bento__cell reveal">
+              <h3>Entrega &amp; taxas</h3>
+              <p>Configure por bairro, distância ou entrega parceira — uma vez só.</p>
+            </div>
+            <div class="bento__cell bento__cell--tall reveal">
+              <h3>Pronto para crescer</h3>
+              <p>Plataforma estável, rápida e preparada para mais lojas e mais pedidos.</p>
+            </div>
+            <div class="bento__cell reveal">
+              <h3>Login fácil</h3>
+              <p>Cliente entra com Google ou redes sociais e vê o histórico de pedidos.</p>
+            </div>
+            <div class="bento__cell bento__cell--accent reveal">
+              <h3>Em evolução contínua</h3>
+              <p>Por enquanto você conhece o Ordee por aqui. Em breve, planos e contratação direto no site.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--cta" id="lista-espera">
+        <div class="container cta reveal">
+          <div class="cta__copy">
+            <p class="eyebrow eyebrow--accent">Acesso antecipado</p>
+            <h2>Seja um dos primeiros a operar com Ordee</h2>
+            <p>
+              Estamos abrindo vagas para lojas piloto. Deixe seu contato — em breve você escolhe plano, ativa Notify e
+              sobe sua loja online em um fluxo só.
+            </p>
+          </div>
+          <form class="cta__form" id="contato" action="#" method="post" data-lead-form>
+            <label>
+              <span>Nome</span>
+              <input type="text" name="nome" required placeholder="Seu nome" autocomplete="name" />
+            </label>
+            <label>
+              <span>E-mail</span>
+              <input type="email" name="email" required placeholder="voce@loja.com.br" autocomplete="email" />
+            </label>
+            <label>
+              <span>WhatsApp da loja</span>
+              <input type="tel" name="whatsapp" placeholder="(11) 99999-9999" autocomplete="tel" />
+            </label>
+            <label>
+              <span>Tipo de negócio</span>
+              <select name="segmento">
+                <option value="">Selecione…</option>
+                <option>Restaurante</option>
+                <option>Conveniência</option>
+                <option>Pizzaria</option>
+                <option>Loja com experiência personalizada</option>
+                <option>Outro segmento</option>
+              </select>
+            </label>
+            <label class="cta__check">
+              <input type="checkbox" name="interesse_notify" />
+              <span>Tenho interesse no <strong>Ordee Notify</strong> (WhatsApp)</span>
+            </label>
+            <button class="btn btn--primary btn--lg btn--block" type="submit">Entrar na lista de espera</button>
+            <p class="cta__legal">Sem spam. Usamos seus dados só para contato sobre o Ordee.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__grid">
+        <div class="footer__brand">
+          <a class="logo logo--footer" href="#top">
+            <img
+              class="logo__img"
+              src="/logo/ordee-grande-preto.png"
+              alt="Ordee"
+              width="120"
+              height="28"
+            />
+          </a>
+          <p>Plataforma de pedidos e catálogo digital para restaurantes, conveniências, pizzarias e lojas.</p>
+        </div>
+        <div class="footer__col">
+          <h4>Produto</h4>
+          <a href="#produtos">Ordee App</a>
+          <a href="#notify">Ordee Notify</a>
+          <a href="#como-funciona">Como funciona</a>
+        </div>
+        <div class="footer__col">
+          <h4>Empresa</h4>
+          <a href="#contato">Contato</a>
+          <a href="#lista-espera">Lista de espera</a>
+        </div>
+        <div class="footer__legal">
+          <p><strong>BARBIERO TECNOLOGIA DE INFORMACAO LTDA</strong></p>
+          <p>Nome fantasia: BARBIERO TECNOLOGIA</p>
+          <p>CNPJ 55.686.963/0001-82</p>
+          <p class="footer__copy">© <span data-year></span> Ordee. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="toast" role="status" aria-live="polite" hidden data-toast></div>
+
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>
