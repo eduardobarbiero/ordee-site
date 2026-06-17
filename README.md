@@ -67,7 +67,19 @@ site/
     ordee-grande-preto.png    # logo header/footer (site claro)
     ordee-grande-branco.png   # reservado p/ fundo escuro
   js/main.js      # nav, scroll reveal, formulário lead (mock)
+  public/
+    termos-de-uso.html      # termos do site institucional
+    termos-de-servico.html  # termos pré-contratuais dos serviços
+    legal/legal.css         # estilo compartilhado das páginas legais
 ```
+
+## Documentos legais (site)
+
+| Página | URL | Escopo |
+|--------|-----|--------|
+| Termos de Uso | `/termos-de-uso.html` | Navegação no site, formulários, lista de espera |
+| Termos de Serviço | `/termos-de-servico.html` | Ordee App / Notify — condições pré-contratuais |
+| Contrato da plataforma | `app.ordee.com.br/term-of-use/contract.html` | Clientes com conta ativa (SaaS) |
 
 ## Empresa (rodapé legal)
 

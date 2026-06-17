@@ -1,0 +1,97 @@
+:root {
+  color-scheme: light;
+  --legal-text: #1a1a1a;
+  --legal-muted: #5c5c5c;
+  --legal-border: #e8e8e8;
+  --legal-accent: #a00184;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.65;
+  color: var(--legal-text);
+  background: #fff;
+}
+
+.legal-header {
+  border-bottom: 1px solid var(--legal-border);
+  padding: 1rem 1.5rem;
+}
+
+.legal-header a {
+  color: var(--legal-accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.legal-header a:hover {
+  text-decoration: underline;
+}
+
+.legal-wrap {
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  margin: 0 0 0.5rem;
+  color: #111;
+}
+
+.legal-meta {
+  margin: 0 0 2rem;
+  color: var(--legal-muted);
+  font-size: 0.9rem;
+}
+
+h2 {
+  font-size: 1.05rem;
+  margin: 2rem 0 0.75rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--legal-border);
+  color: #222;
+}
+
+p,
+li {
+  text-align: justify;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+ul,
+ol {
+  margin: 0 0 1rem;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+.legal-note {
+  margin-top: 2.5rem;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid var(--legal-accent);
+  background: #fafafa;
+  font-size: 0.92rem;
+  color: var(--legal-muted);
+}
+
+.legal-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--legal-border);
+  font-size: 0.85rem;
+  color: var(--legal-muted);
+}
