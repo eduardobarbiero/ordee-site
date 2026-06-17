@@ -38,6 +38,22 @@ Saída em `dist/`.
 
 O arquivo `site/netlify.toml` já traz build e Node 20. Não precisa de variáveis de ambiente nem redirect — é uma página única com âncoras (`#plataforma`, etc.).
 
+## SEO (Google)
+
+Já incluído no site:
+
+- `title` e `meta description` otimizados
+- Open Graph e Twitter Card
+- `canonical`, `robots`, `hreflang`
+- JSON-LD: Organization, WebSite, SoftwareApplication, FAQPage
+- `public/robots.txt` e `public/sitemap.xml` (domínio `https://ordee.com.br`)
+
+**Após publicar no Netlify:**
+
+1. Aponte o domínio `ordee.com.br` (ou ajuste URLs em `index.html`, `sitemap.xml` e `robots.txt` se usar outro domínio).
+2. [Google Search Console](https://search.google.com/search-console) → adicionar propriedade → enviar sitemap: `https://ordee.com.br/sitemap.xml`.
+3. Confirme a meta `facebook-domain-verification` (já no `<head>`).
+
 ## Estrutura
 
 ```
